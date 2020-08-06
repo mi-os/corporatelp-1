@@ -3,9 +3,338 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corporate Landing Page 1</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Corporate LP 1</title>
+    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="styles/style.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__info">ホームページ制作会社 | 株式会社webdeveloper</h1>
+            <div class="header__tel">お電話でのお問い合わせはこちら：03-1234-5678</div>
+        </div>
+    </header>
+    <main>
+        <section class="intro section">
+            <div class="intro__container">
+                <div class="intro__price-container">
+                    <p class="intro__top-title-sub">Webサイト作成／更新サービス</p>
+                    <p class="intro__top-title-price">1サイト <span>8,000</span>円〜（税別）</p>
+                </div>
+                <h2 class="intro__top-title">Webサイトビルダー</h2>
+                <p class="intro__description">ホームページのデザイン・バナーの作成や、コーディング・WordPressのカスタマイズなどの制作を承ります。</p>
+            </div>
+        </section>
+        <div class="top">
+            <div class="top__item-container">
+                <div class="top__item"><img class="top__img" src="images/web_devices.svg" alt="web_devices"></div>
+                <div class="top__item"><img class="top__img" src="images/wireframing.svg" alt="wordpress"></div>
+                <div class="top__item"><img class="top__img" src="images/feedback.svg" alt="click"></div>
+            </div>
+        </div>
+        <section class="solution section">
+            <ul class="solution__block-container">
+                <li class="solution__block"><p class="solution__text"><span>個人・中小企業を中心に、</span><span>LPページやコーポレートサイトの制作実績あり！</span></p></li>
+                <li class="solution__block"><p class="solution__text"><span>何から手をつけて良いのか分からない、</span><span>なるべく早く仕上げて欲しい！</span></p></li>
+                <li class="solution__block"><p class="solution__text"><span>社内にWeb担当者がいない企業様、</span><span>忙しくて時間の取れない方にオススメ！</span></p></li>
+            </ul>
+        </section>
+        
+        <section class="wecan section">
+            <div class="section__title">
+                <h3 class="section__title-main">できること</h3>
+                <p class="section__title-sub">Webサイトビルダーで提供できるサービス一覧です。ホームページ制作に関わることなら、ほとんど対応可能です。</p>
+            </div>
+            <div class="wecan__container">
+                <div class="wecan__item-wrapper">
+                    <div class="wecan__item">
+                        <img src="images/web_developer.svg" alt="web_developer" class="wecan__img">
+                        <p class="wecan__item__title">Webサイトの作成</p>
+                        <p class="wecan__item__description">HTML/CSS、WordPressを使った、Web制作を行います。</p>
+                    </div>
+                </div>
+                <div class="wecan__item-wrapper">
+                    <div class="wecan__item">
+                        <img src="images/web_development.svg" alt="web_development" class="wecan__img">
+                        <p class="wecan__item__title">Webサイトの更新作業</p>
+                        <p class="wecan__item__description">WordPressのCMS更新作業や、HTML/CSSを編集する作業を行います。</p>
+                    </div>
+                </div>
+                <div class="wecan__item-wrapper">
+                    <div class="wecan__item">
+                        <img src="images/camera.svg" alt="camera" class="wecan__img">
+                        <p class="wecan__item__title">バナーやグラフィックの作成</p>
+                        <p class="wecan__item__description">バナー制作や、Webサイトを彩る画像やイラストなどを作成します。</p>
+                    </div>
+                </div>
+                <div class="wecan__item-wrapper">
+                    <div class="wecan__item">
+                        <img src="images/seo.svg" alt="seo" class="wecan__img">
+                        <p class="wecan__item__title">SEO対策</p>
+                        <p class="wecan__item__description">サイトへのアクセス数を上げるための、現状分析や内部対策などを行います。</p>
+                    </div>
+                </div>
+                <div class="wecan__item-wrapper">
+                    <div class="wecan__item">
+                        <img src="images/post.svg" alt="post" class="wecan__img">
+                        <p class="wecan__item__title">コンテンツの追加</p>
+                        <p class="wecan__item__description">既存ページへのコンテンツの追加を行います。</p>
+                    </div>
+                </div>
+                <div class="wecan__item-wrapper">
+                    <div class="wecan__item">
+                        <img src="images/note.svg" alt="" class="wecan__img">
+                        <p class="wecan__item__title">その他</p>
+                        <p class="wecan__item__description">ライティングやSNS運用などもご相談ください。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="plan section">
+            <div class="section__title">
+                <h3 class="section__title-main">契約プラン</h3>
+                <p class="section__title-sub">コンテンツやバナーの追加など、毎月決まった作業を依頼したい場合はカスタムプランがオススメです。</p>
+            </div>
+            <div class="plan__container">
+                <div class="plan__custom">
+                    <h4 class="plan__name">カスタムプラン</h4>
+                    <div class="plan__content">
+                        <p class="plan__price">月額<span>8,000</span>円（税別）から</p>
+                        <p class="plan__hour">時間：要相談</p>
+                        <p class="plan__time">依頼回数：制限あり</p>
+                        <p class="plan__agreement">契約：お試し１ヶ月＋３ヶ月 or 半年契約</p>
+                    </div>
+                </div>
+            </div>
+            <ul class="plan__attentions">
+                <li>・契約はお試し１ヶ月と３ヶ月・半年契約が契約があります。</li>
+                <li>・半年以上のご契約の場合は、全国どこでも初回に打ち合わせに伺います。</li>
+                <li>・依頼した月から契約を開始されます。</li>
+            </ul>
+        </section>
+        <section class="work-time section">
+            <div class="section__title">
+                <h3 class="section__title-main">各作業の目安時間</h3>
+                <p class="section__title-sub">主な作業内容にかかる時間と納期目安一覧です。</p>
+            </div>
+            <div class="work-time__table-container">
+                <div class="work-time__scroll">
+                    <table class="work-time__table">
+                        <tr>
+                            <th>項目</th><th>作業時間</th><th>納期</th>
+                        </tr>
+                        <tr>
+                            <td>ホームページ１ページ</td><td>8時間〜</td><td>当日〜</td>
+                        </tr>
+                        <tr>
+                            <td>HTML/CSSでのページ更新作業</td><td>1時間〜</td><td>当日〜３営業日</td>
+                        </tr>
+                        <tr>
+                            <td>バナー制作 １点あたり</td><td>1時間〜</td><td>当日〜３営業日</td>
+                        </tr>
+                        <tr>
+                            <td>WordPressオリジナルテーマ作成</td><td>1週間〜</td><td>２週間〜</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="work-time__attentions">
+                <p class="first">※作業時間には、検証やコミュニケーションにかかった時間も含まれます。</p>
+                <p class="second">※優先対応をご希望される場合は、作業時間に優先対応としての時間が加算されます。</p>
+            </div>
+        </section>
+        <section class="request sectio">
+            <div class="section__title">
+                <h3 class="section__title-main">依頼の流れ</h3>
+                <p class="section__title-sub">依頼は１案件ごとに異なり、案件終了後に次の依頼を行うことができます。</p>
+            </div>
+            <div class="request__container">
+                <div class="request__item request__box">
+                    <p class="request__number">1.</p>
+                    <p class="request__content">お客様からご依頼内容をメールにてご連絡</p>
+                </div>
+                <div class="request__item request__arrow"></div>
+                <div class="request__item request__box">
+                    <p class="request__number">2.</p>
+                    <p class="request__content">弊社担当が作業内容と納期目安をご連絡して作業開始</p>
+                </div>
+                <div class="request__item request__arrow"></div>
+                <div class="request__item request__box">
+                    <p class="request__number">3.</p>
+                    <p class="request__content">作業完了後、サーバにアップロードして提出</p>
+                </div>
+                <div class="request__item request__arrow request__3"></div>
+                <div class="request__item request__box">
+                    <p class="request__number">4.</p>
+                    <p class="request__content">確認していただき、お客様から修正指示</p>
+                </div>
+                <div class="request__item request__arrow"></div>
+                <div class="request__item request__box">
+                    <p class="request__number">5.</p>
+                    <p class="request__content">弊社にて修正対応</p>
+                </div>
+                <div class="request__item request__arrow"></div>
+                <div class="request__item request__box">
+                    <p class="request__number">6.</p>
+                    <p class="request__content">了承後、納品か本番環境に反映し依頼完了</p>
+                </div>
+            </div>
+        </section>
+        <section class="service section">
+            <div class="section__title">
+                <h3 class="section__title-main">サービス詳細</h3>
+                <p class="section__title-sub">Webサイトビルダーで対応できる内容や環境についての説明です。</p>
+            </div>
+            <div class="service__container">
+                <div class="service__content service__about">
+                    <div class="service__title">対応できる内容</div>
+                    <ul class="service__list">
+                        <li>・HTML/CSSを用いた、Webサイト作成</li>
+                        <li>・Webサイトのページ更新作業</li>
+                        <li>・WordPressのオリジナルテーマ作成</li>
+                        <li>・CMSでの更新作業</li>
+                        <li>・バナーやグラフィックの作成</li>
+                        <li>・SEO対策</li>
+                        <li>・SNS運用</li>
+                        <li>・ライティング</li>
+                    </ul>
+                </div>
+                <div class="service__content service__env">
+                    <div class="service__title">対応できる環境</div>
+                    <ul class="service__list">
+                        <li>・メール</li>
+                        <li>・slack</li>
+                        <li>・チャットワーク</li>
+                        <li>・GitHub</li>
+                        <li>・FTP/SFTP</li>
+                    </ul>
+                </div>
+                <div class="service__content service__request">
+                    <div class="service__title">依頼について</div>
+                    <ul class="service__list">
+                        <li>・依頼は１案件ずつになります。案件が完了次第、次の案件をご依頼できます。</li>
+                        <li>・依頼のキャンセルも受けたまりますが、それまでの作業で生じた時間に対する料金は発生致しますので、ご了承ください。</li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="service__list-caution">
+                <li>※内容によりお断りさせていただくケースもございます。</li>
+            </ul>
+        </section>
+        <section class="qa section">
+            <div class="section__title">
+                <h3 class="section__title-main">よくある質問</h3>
+                <p class="section__title-sub">Webサイトビルダーに関するよくあるご質問です。ここに無い項目はお問い合わせください。</p>
+            </div>
+            <div class="qa__container">
+                <div class="qa__item">
+                    <div class="qa__question qa__question-1">
+                        <p class="qa__title">1. <span>Pythonなどのプログラミング言語の対応は可能でしょうか？</span></p>
+                    </div>
+                    <div class="qa__content qa__content-1">
+                        <p>別途ご相談ください。</p>
+                    </div>
+                </div>
+                <div class="qa__item">
+                    <div class="qa__question qa__question-2">
+                        <p class="qa__title">2. <span>データのバックアップはありますか？</span></p>
+                    </div>
+                    <div class="qa__content qa__content-2">
+                        <p>はい。１年間の保管期間を設けています。</p>
+                    </div>
+                </div>
+                <div class="qa__item">
+                    <div class="qa__question qa__question-3">
+                        <p class="qa__title">3. <span>電話対応はできますか？</span></p>
+                    </div>
+                    <div class="qa__content qa__content-3">
+                        <p>基本的には、メールでのご対応になりますが、本番環境へ反映後、弊社が作業に誤りがある場合はお電話いただければと思います。</p>
+                    </div>
+                </div>
+                <div class="qa__item">
+                    <div class="qa__question qa__question-4">
+                        <p class="qa__title">4. <span>電話対応はできますか？</span></p>
+                    </div>
+                    <div class="qa__content qa__content-4">
+                        <p>別途ご相談ください。Webに関するご質問や解決可能な問題でしたら、ご対応できます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="counseling section">
+            <div class="section__title">
+                <h3 class="section__title-main">ホームページ運営に関するご相談</h3>
+                <p class="section__title-sub">日々更新業務を行っていると、更新方法や問題改善など様々なお悩みがあるかと思います。</p>
+            </div>
+            <div class="counseling__container">
+                <div class="counseling__item">今の運営方法で結果が出ない</div>
+                <div class="counseling__item">SNSの運用がしたい</div>
+                <div class="counseling__item">検索結果の上位にサイトを表示したい</div>
+                <div class="counseling__item">サイトのデザインを一新したい</div>
+            </div>
+            <p class="section__title-sub">上記のようなお悩みがある方、ホームページの運営に関するご相談も承っておりますので、お気軽にお問い合わせください。</p>
+        </section>
+        <section class="contact section">
+            <div class="section__title">
+                <h3 class="section__title-main">お問い合わせ</h3>
+                <p class="section__title-sub">Webサイトビルダーを利用したい、もしくはサービス内容を詳しく聞いてみたい方はお気軽にお問い合わせください。翌営業日までにご返答させていただきます。</p>
+            </div>
+            <div class="contact__container">
+                <form action="#" id="form" method="#">
+                    <div class="contact__item">
+                        <p class="contact__title">お名前<span class="contact__must">(必須)</span></p>
+                        <input type="text" name="name" class="input">
+                    </div>
+                    <div class="contact__item">
+                        <p class="contact__title">貴社名<span class="contact__must">(必須)</span></p>
+                        <input type="text" name="name" class="input">
+                    </div>
+                    <div class="contact__item">
+                        <p class="contact__title">メールアドレス<span class="contact__must">(必須)</span></p>
+                        <input type="text" name="name" class="input">
+                    </div>
+                    <div class="contact__item">
+                        <p class="contact__title">面談希望</p>
+                        <div class="contact__checkbox">
+                            <input type="checkbox" name="面談を希望する" value="面談を希望する">
+                            <lavel class="checkbox-text" for="interview">面談を希望する</lavel>
+                            <p class="contact__caution">※ご契約前の面談は都内近郊に限らせて頂きます。</p>
+                        </div>
+                    </div>
+                    <div class="contact__item contact__textarea">
+                        <p class="contact__title">お問い合わせ内容<span class="contact__must">(必須)</span></p>
+                        <textarea name="お問い合わせ内容" id="textarea"></textarea>
+                    </div>
+                    <div class="contact__submit">
+                        <input type="submit" value="送信する" class="form-button">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__corporate-name">運営会社：株式会社webdevelopers</p>
+            <div class="footer__about">
+                <div class="footer__bio">
+                    <p>会社紹介</p>
+                    <p>2020年に設立したしたWeb制作会社です。個人・中小企業を中心に数多くのWebサイトを手掛けてきた実績があります。</p>
+                </div>
+                <div class="footer__info">
+                    <p class="corp-eng">webdevelopers Inc.</p>
+                    <div class="footer__info-flex">
+                        <p class="address">〒123-4567 東京都渋谷区○○1-2</p>
+                        <p class="tel">Tel : 03-1234-5678</p>
+                        <p class="mail">Mail : info@webdeveloper.co.jp</p>
+                    </div>
+                    <p class="web">Web : https://webdeveloper.co.jp</p>
+                    <p class="copyright">Copyright © webdevelopers Inc. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/dropDown.js"></script>
 </body>
 </html>
