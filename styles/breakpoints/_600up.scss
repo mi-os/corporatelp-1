@@ -1,0 +1,45 @@
+.intro {
+    &__description {
+        margin: 0 200px;
+    }
+}
+
+.solution {
+    &__block-container {
+        max-width: 350px;
+    }
+}
+
+.qa {
+    &__content {
+        p {
+            margin: 0 70px;
+        }
+    }
+
+    &__toggled-1 {
+        @include triangle($border-bottom: 9px solid $cMidBlue, $border-right: solid 4px transparent, $border-left: solid 4px transparent, $top: -120%, $left: 95%);
+    }
+
+    &__toggled-3 {
+        @include triangle($border-bottom: 9px solid $cMidBlue, $border-right: solid 4px transparent, $border-left: solid 4px transparent, $top: -70%, $left: 95%);
+    }
+
+    &__toggled-4 {
+        @include triangle($border-bottom: 9px solid $cMidBlue, $border-right: solid 4px transparent, $border-left: solid 4px transparent, $top: -100%, $left: 95%);
+    }
+}
+
+.contact {
+    &__item {
+        display: flex;
+    }
+
+    &__title {
+        width: 30%;
+    }
+
+    &__checkbox {
+        width: 100%;
+    }
+}
